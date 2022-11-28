@@ -1,0 +1,44 @@
+.service{
+    padding: 3rem 0;
+    margin: 0;
+    background-color: #fff;
+}
+
+.serviceHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service .serviceProfile1, .serviceProfile2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.service .serviceProfile1 .serviceColumn1{
+    display: flex;
+    align-items: center;
+    width: 10rem;
+    /* height: 15rem; */
+    justify-content:space-around;
+    flex-direction: column;
+}
+.service .serviceProfile1 .serviceColumn2{
+    display: flex;
+    align-items: center;
+    width: 10rem;
+    /* height: 20rem; */
+    justify-content:space-around;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+.service .serviceProfile1 .serviceColumn3{
+    display: flex;
+    align-items: center;
+    width: 10rem;
+    /* height: 20rem; */
+    justify-content:space-around;
+    flex-direction: column;
+    overflow-y: hidden;
+    margin-top: 2rem;
+}

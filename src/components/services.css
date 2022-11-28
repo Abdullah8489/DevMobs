@@ -1,0 +1,23 @@
+.services{
+    padding-top: 3rem;
+    background-color: white;
+    /* border-style:groove; */
+}
+.services h1, .services p{
+    color: black;
+}
+.services .serviceOne, .serviceTwo, .serviceThree{
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+}
+
+.services .svgSection img{
+    width: 20rem;
+    height: 20rem;
+}
+
+.services .svgSection img:hover{
+    width: 25rem;
+    height: 25rem;
+}

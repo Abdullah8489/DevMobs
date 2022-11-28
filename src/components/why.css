@@ -1,0 +1,29 @@
+.why{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #001730;
+    padding: 5rem 0;
+}
+
+.why-wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.custom-shape-divider-top-1662023038 {
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1662023038 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 200px;
+}
+
+.custom-shape-divider-top-1662023038 .shape-fill {
+    fill: #001730;
+}

@@ -1,0 +1,79 @@
+.Office{
+    background: #001730;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+.Office .container{
+    width: 25rem;
+}
+
+.Office .typoSec{
+    /* background-color: black; */
+    margin-top: -5rem;
+    margin-left: -3rem;
+    width: 30rem;
+    height: 15rem;
+    font-size: 1rem;
+    overflow-y: hidden;
+}
+
+.Office .typoSec p{
+    font-size: 1.2rem;
+}
+
+.custom-shape-divider-top-1662022594 {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1662022594 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1662022594 .shape-fill {
+    fill: #001730;
+}
+
+/* 
+.Office .typoSec .text{
+    position: relative;
+    color: #4070f4;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.Office .typoSec .text.firstText{
+    color: #fff;
+}
+
+.Office .typoSec .text.secText:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #010718;
+    border-left: 2px solid #4070F8;
+    animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+    0%, 70%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+    }
+} */
